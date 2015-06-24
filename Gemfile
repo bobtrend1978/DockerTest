@@ -8,11 +8,11 @@ gem 'rails', '4.1.8'
 #group :development, :test do it
 #  gem 'sqlite3-ruby', :require => 'sqlite3'
 #:end
-gem 'sqlite3', :group => [:development, :test]
-group :production do
-gem 'thin'
-gem 'pg'
-end
+#gem 'sqlite3', :group => [:development, :test]
+#group :production do
+#gem 'thin'
+#gem 'pg'
+#end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
